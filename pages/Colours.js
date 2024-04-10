@@ -2,6 +2,7 @@ import styles from '@/styles/Home.module.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar/Navbar';
+import Footer from '@/components/Footer/Footer';
 
 export default function Colours() {
   return (
@@ -23,7 +24,23 @@ export default function Colours() {
         </div>
         <div class="paletterationale">
             <p>This colour palette was chosen based on the theme of the app: recycling. Green, blue and yellow are commonly used on recycling bins and bags around Vancouver. Green and blue also represent the earth and sustainability, which is the main focus of Trash Scavengers. The light greys and red compliment the main colours and are easy on the eyes. </p>
-        </div>  
+        </div>
+        <div>
+            <Image src={'/colourExamples/playButton.png'} width={350} height={120}/>
+            <Image src={'/colourExamples/tutorialButton.png'} width={350} height={120}/>
+        </div>
+        <div>
+            <Image src={'/colourExamples/homeButton.png'} width={400} height={120}/>
+        </div>
+        <div>
+            <Image src={'/colourExamples/healthBar.png'} width={400} height={85}/>
+        </div>
+        <div class="foodBarImage">
+            <Image src={'/colourExamples/foodBar.png'} width={400} height={85}/>
+        </div>
+        <div>
+              <p>___________________________________________________________________________________________________________________________</p>
+            </div>
         <div class="results">
             <h2>Colour Contrast Checker Results</h2>
         <div class="firstpic">
@@ -57,6 +74,7 @@ export default function Colours() {
         </div>
         </div>
       </main>
+      <Footer/>
     </>
   )
 }

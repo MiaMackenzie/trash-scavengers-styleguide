@@ -1,5 +1,5 @@
 :root {
- 
+ background-color: #EBEBEB;
 }
 
 ul {
@@ -7,7 +7,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2e2d2d;
+    background-color: #003508;
   }
 
   li a {
@@ -23,7 +23,7 @@ ul {
   }
 
   li a:hover {
-    background-color: #111111;
+    background-color: #001300;
   }
 
   .circle1 {
@@ -95,4 +95,146 @@ ul {
 
   .paletterationale {
     text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .fcl {
+    text-align: center;
+  }
+
+  .bwl {
+    text-align: center;
+  }
+
+  .gl {
+    text-align: center;
+  }
+
+  .ml {
+    text-align: center;
+  }
+
+  .hvfcl {
+    text-align: center;
+  }
+
+  .vsfcl {
+    text-align: center;
+  }
+
+  .fv {
+    text-align: center;
+  }
+
+  .Vdescription {
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .textSizes {
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'Righteous';
+  }
+
+  .fontRationale {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  .typoTitle {
+    text-align: center;
+  }
+
+  .footer {
+    text-align: center;
+    background-color: #023a00;
+    color: white;
+    padding: 0.5px;
+  }
+
+  .graphicsTitle {
+    text-align: center;
+    padding-top: 3%;
+  }
+
+  .firstIcons {
+    text-align: center;
+  }
+
+  .secondIcons {
+    text-align: center;
+    padding-top: 3%;
+  }
+
+  .thirdIcons {
+    text-align: center;
+    padding-top: 3%;
+  }
+
+  .rightSide {
+    margin-top: -77px;
+    float: right;
+  }
+
+  .leftSide {
+    margin-top: -78px;
+  }
+
+  .fourthIcons {
+    text-align: center;
+    padding-top: 3%;
+  }
+
+  .fifthIcons {
+    text-align: center;
+    padding-top: 3%;
+  }
+
+  .sixthIcons {
+    text-align: center;
+    padding-top: 3%;
+  }
+
+  .seventhIcons {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .mascot {
+    text-align: center;
+    padding-top: 3%;
+  }
+
+  .logoReferences {
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+
+  .referencesTitle {
+    text-align: center;
+  }
+
+  .coloursReference {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .foodBarImage {
+    padding-bottom: 3%;
+  }
+
+  .typographyReference {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .iconographyReference {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
