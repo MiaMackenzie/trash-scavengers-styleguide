@@ -1,3 +1,98 @@
 :root {
  
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2e2d2d;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a:hover {
+    background-color: #111111;
+  }
+
+  .circle1 {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+    border-radius: 50%;
+  }
+
+  .Assets {
+    padding-top: 60px;
+    display: inline-block;
+  }
+
+  .hexcodes .red {
+    margin-left: -55%;
+  }
+
+  .green {
+    margin-left: -33%;
+    margin-top: -6%;
+  }
+
+  .darkgrey {
+    margin-left: -11%;
+    margin-top: -6%;
+  }
+
+  .blue {
+    margin-left: 11%;
+    margin-top: -6%;
+  }
+
+  .yellow {
+    margin-left: 33%;
+    margin-top: -6%;
+  }
+
+  .lightgrey {
+    margin-left: 55%;
+    margin-top: -6%;
+    margin-bottom: 5%;
+  }
+
+  .results {
+    text-align: center;
+    padding-top: 6%;
+  }
+
+  .variations {
+    text-align: center;
+  }
+
+  .firstpic {
+    padding-top: 5%;
+  }
+
+  .fourpics {
+    padding-top: 5%;
+  }
+
+  .threepics {
+    padding-top: 5%;
+  }
+
+  .singlepic {
+    padding-top: 5%;
+  }
+
+  .paletterationale {
+    text-align: center;
+  }
